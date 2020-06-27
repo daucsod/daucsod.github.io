@@ -1,0 +1,95 @@
+
+#fejlec {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(212, 159, 13, 0.712);
+
+    ;
+}
+
+.navbar {margin-bottom: 0;}
+
+ul :hover {
+    background-color: whitesmoke;
+}
+
+
+
+html {
+    120%;
+    overflow: hidden;
+}
+
+.welcome {
+    color: black;
+    font-weight: 90;
+    font-size: xx-small ;
+    font-style: oblique; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+   
+}
+
+
+header {
+    box-sizing: border-box;
+    min-height: 90vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    background-color: gray;
+
+}
+
+header h1  {
+    margin-top: -150px;
+}
+
+header, header:before {
+    background: 30% 30% / cover;
+}
+
+header::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url(/gumi3.jpg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 90vh;
+
+}
+
+header * {
+    
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
+#exm {position: absolute;
+background: #fff;
+margin-top: 200px;
+margin-bottom: 0px;
+height: 100%;
+background-color: gray;
+}
+
+body {
+    background-color: gray;
+}
